@@ -1,0 +1,22 @@
+{
+  "useTaobaoRegistry": false,
+  "packageManager": "yarn",
+  "presets": {
+    "Basic": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "2",
+      "cssPreprocessor": "node-sass"
+    }
+  },
+  "latestVersion": "5.0.8",
+  "lastChecked": 1659617416318
+}
